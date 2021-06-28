@@ -1,0 +1,56 @@
+body {
+    zoom: 0.45;
+    background-image: url("img/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	font-family: 'Verdana', sans-serif;
+}
+
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
